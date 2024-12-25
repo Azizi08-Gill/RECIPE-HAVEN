@@ -1,0 +1,35 @@
+name: recipe_haven
+description: "A new Flutter project."
+publish_to: 'none'  
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.4.1
+  provider: ^6.1.2
+  iconsax: ^0.0.8
+  cloud_firestore: ^5.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/welcome.png
+    - assets/login.png
+    - assets/google-logo.png
+    - assets/signup.png
+
